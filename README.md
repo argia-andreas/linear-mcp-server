@@ -1,4 +1,5 @@
 # Linear MCP Server
+[![smithery badge](https://smithery.ai/badge/@argia-andreas/linear-mcp-server)](https://smithery.ai/server/@argia-andreas/linear-mcp-server)
 
 A Model Context Protocol (MCP) server for interacting with Linear. This server allows AI assistants to fetch data from Linear through the MCP standard.
 
@@ -8,6 +9,15 @@ A Model Context Protocol (MCP) server for interacting with Linear. This server a
 
 ## Installation
 
+### Installing via Smithery
+
+To install Linear Task Fetcher for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@argia-andreas/linear-mcp-server):
+
+```bash
+npx -y @smithery/cli install @argia-andreas/linear-mcp-server --client claude
+```
+
+### Manual Installation
 1. Clone this repository
 2. Install dependencies:
    ```bash
